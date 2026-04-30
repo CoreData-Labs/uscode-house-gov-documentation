@@ -201,3 +201,11 @@ https://uscode.house.gov/download/releasepoints/us/pl/116/17/htm_uscAll@116-17.z
 https://uscode.house.gov/download/releasepoints/us/pl/116/16/htm_uscAll@116-16.zip
 https://uscode.house.gov/download/releasepoints/us/pl/116/13/htm_uscAll@116-13.zip
 https://uscode.house.gov/download/releasepoints/us/pl/116/12/htm_uscAll@116-12.zip
+https://uscode.house.gov/download/releasepoints/us/pl/116/10/htm_uscAll@116-10.zip
+https://uscode.house.gov/download/releasepoints/us/pl/116/8not6/htm_uscAll@116-8not6.zip
+https://uscode.house.gov/download/releasepoints/us/pl/115/442/htm_uscAll@115-442.zip
+https://uscode.house.gov/download/releasepoints/us/pl/115/442not334/htm_uscAll@115-442not334.zip
+https://uscode.house.gov/download/releasepoints/us/pl/115/419not334/htm_uscAll@115-419not334.zip
+https://uscode.house.gov/download/releasepoints/us/pl/115/384not282not334/htm_uscAll@115-384not282not334.zip
+https://uscode.house.gov/download/releasepoints/us/pl/115/338not254not282not334/htm_uscAll@115-338not254not282not334.zip
+https://uscode.house.gov/download/releasepoints/us/pl/115/333not254not282/htm_uscAll@115-333not254not282.zip
