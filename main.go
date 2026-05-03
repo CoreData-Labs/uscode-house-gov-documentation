@@ -312,6 +312,26 @@ func findZipFileLinkFromReleasePageHTML(releasePageHTMLContent string) (string, 
 	return zipFileRelativePath, nil
 }
 
+// Remove all the duplicates from a slice and return the slice.
+func removeDuplicatesFromSlice(slice []string) []string {
+	// Create a map to track which strings have already been seen
+	check := make(map[string]bool)
+	// Initialize a slice to store the unique values
+	var newReturnSlice []string
+	// Loop through each element in the input slice
+	for _, content := range slice {
+		// If the element has not been seen before
+		if !check[content] {
+			// Mark the element as seen in the map
+			check[content] = true
+			// Append the unique element to the result slice
+			newReturnSlice = append(newReturnSlice, content)
+		}
+	}
+	// Return the slice containing only unique elements
+	return newReturnSlice
+}
+
 // downloadAllHistoricalReleases fetches the prior-releases index, visits every
 // individual release page, and processes the ZIP file on each page.
 func downloadAllHistoricalReleases(alreadyDownloaded map[string]bool) error {
@@ -323,6 +343,7 @@ func downloadAllHistoricalReleases(alreadyDownloaded map[string]bool) error {
 		return fmt.Errorf("could not fetch prior releases index: %w", err)
 	}
 	releasePageRelativeLinks := extractReleasepointLinks(indexHTML) // Get all release page links
+	releasePageRelativeLinks = removeDuplicatesFromSlice(releasePageRelativeLinks)
 	log.Printf("Found %d historical release pages to process", len(releasePageRelativeLinks))
 	for _, relativeLink := range releasePageRelativeLinks { // Visit each release page one by one
 		// Build the full URL for this release page
