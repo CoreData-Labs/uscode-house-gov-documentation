@@ -369,3 +369,6 @@ https://uscode.house.gov/download/releasepoints/us/pl/113/44/htm_uscAll@113-44.z
 https://uscode.house.gov/download/releasepoints/us/pl/113/36/htm_uscAll@113-36.zip
 https://uscode.house.gov/download/releasepoints/us/pl/113/31/htm_uscAll@113-31.zip
 https://uscode.house.gov/download/releasepoints/us/pl/113/21/htm_uscAll@113-21.zip
+https://uscode.house.gov/download/releasepoints/us/pl/119/88/htm_uscAll@119-88.zip
+https://uscode.house.gov/download/releasepoints/us/pl/119/87/htm_uscAll@119-87.zip
+https://uscode.house.gov/download/releasepoints/us/pl/119/72not60/htm_uscAll@119-72not60.zip
